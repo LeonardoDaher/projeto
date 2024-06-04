@@ -160,7 +160,7 @@ font: size 24px;
 
 
 
-//*media queries*//
+/*media queries*/
 @media (min-width: 700px) {
 :root {
   --bg-url:url(./assets/assets/bg-desktop.jpg);
