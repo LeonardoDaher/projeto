@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -36,7 +37,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   height: 720px;
   margin-right: auto;
   margin-left: auto;
@@ -155,3 +157,16 @@ padding: 24px;
 text-align:center;
 font: size 24px;
 }
+
+
+
+//*media queries*//
+@media (min-width: 700px) {
+:root {
+  --bg-url:url(./assets/assets/bg-desktop.jpg);
+  }
+  .Light {
+  --bg-url:url(./assets/assets/bg-desktop-light.jpg);
+  }
+}
+
